@@ -1,0 +1,33 @@
+.header{
+    width:100%;
+    height: 50px;
+    background-color:rgb(102, 147, 184);
+    position: fixed;
+    top:0px;
+    right: 0px;
+    display: inline;
+}
+.header > button {
+    float: center ;
+    display: inline;
+}
+.header > h3 {
+    float right;
+    display: inline;
+}
+.flex-container1{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+.flex-element{
+    width:200px;
+    height: 200px;
+    background-color: cadetblue;
+
+}
+#label{
+    text-align: center;
+}
